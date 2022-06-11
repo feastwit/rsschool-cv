@@ -1,1 +1,1 @@
-# rsschool-cv
+https://feastwit.github.io/rsschool-cv/cv
