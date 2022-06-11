@@ -1,9 +1,10 @@
-#**Christina Pirumyan**
+# **Christina Pirumyan**
 
 
-##**Contacts**
-
+## **Contacts**
 
 **Phone:** +375297483551
+
 **Email:** kytia@yandex.ru
+
 **Telegram:** feastwit
