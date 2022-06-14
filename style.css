@@ -8,6 +8,7 @@ body {
    max-width: 800px;
    align-items: center;
    justify-content: space-between;
+   
 }
 * {
    box-sizing: border-box;
@@ -56,6 +57,8 @@ html {
  .main-container {
    display: flex;
    flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
  }
   @media (max-width: 768px) {
    .section {
