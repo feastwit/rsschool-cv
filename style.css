@@ -1,0 +1,168 @@
+body {
+   font-family: 'Joan', sans-serif;
+   min-height: 100vh; 
+   margin: auto; 
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   max-width: 800px;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+* {
+   box-sizing: border-box;
+ }
+
+.header {
+   background-color: rgb(137, 218, 173,0.25);
+   width: 100%;
+   
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.contcolumns {
+display: flex;
+}
+
+.contfirst {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   width: 50%;
+   background-color: rgb(223, 222, 196, 0.3);
+   padding-left: 40px;
+   padding-right: 10px;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 0px;
+   list-style: none;
+   padding: 0 20px;
+   line-height: 50px;
+}
+
+html {
+   scroll-behavior: smooth; 
+ }
+
+ .contsecond {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   background-color: rgb(137, 218, 173,0.2);
+   padding-left: 40px;
+ }
+
+.nav-link {
+   color: rgb(9, 82, 100);
+   text-decoration: none;
+   font-size: x-large;
+   font-weight: lighter;
+   transition: .3s;
+ }
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   background-color: rgb(223, 222, 196, 0.2);
+   width: 100%;
+   padding-left: 13%;
+ }
+
+ .section-title {
+   color: rgb(9, 82, 100);
+   text-decoration: none;
+   font-size: x-large;
+   font-weight: lighter;
+ }
+
+ .general-text {
+   text-align: justify;
+ }
+
+ .main-container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+  @media (max-width: 768px) {
+   .section {
+      width: 100%;
+   }
+ }
+
+.photo-section {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   background:linear-gradient(to right, rgb(223, 222, 196, 0.2), rgb(137, 218, 173,0.3));
+   width: 100%;
+   padding-left: 20px;
+   gap: 20px;
+   padding-bottom: 30px;
+}
+
+.my-photo {
+   margin-top: 20PX;
+   border-radius: 50%;
+}
+
+.rss {
+   border-radius: 20%;
+}
+
+.git {
+   text-decoration: none;
+   color: rgba(15, 48, 30, 0.9);
+}
+
+.cv {
+   text-decoration: none;
+   color: black;
+}
+
+.GitHub {
+   border-radius: 1ch;
+}
+
+.year {
+   font-size: 24px;
+   color: rgb(9, 82, 100);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.website {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 20px;
+}
+
+li {
+   list-style-type: square;
+}
+
+.nav-item {
+   list-style-type: none;
+}
+
+.flower {
+   width: 21%;
+   margin-left: 15%; 
+   opacity: 0.4;
+   transform: rotate(-45deg);
+}
